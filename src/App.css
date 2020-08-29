@@ -52,14 +52,30 @@ p{
 }
 
 .blue-green{
-    color: #1ab982;
+    background-color: #1ab982;
 }
 
 .blue-cyan{
-    color: #1a89b9;
+    background-color: #1a89b9;
+}
+
+.blue-light{
+    background-color: #116a85;
+}
+
+.green-dark{
+    background-color: #1b92b6;
+}
+
+.blue-blue{
+    background-color: #0a1771;
 }
 
 .MuiTextField-root{
     font-family: monospace;
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.MuiSvgIcon-root{
+    color: #c2c2c2;
 }
