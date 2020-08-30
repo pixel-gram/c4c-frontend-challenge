@@ -1,5 +1,25 @@
 # Measurement Canada Front-End Developer Interview
 
+## Assumptions 
+ Based on the design I made an assumption that user should be able to delete and edit an existing referral.
+ 
+
+## ToDo
+ Due to 8 hours to time limit. I did my best to do most of the things but If more time is provided I would work on the following tasks - 
+  * Completing the Referral update feature.
+  * Do better form validation and handle submissions.
+  * Write Tests using Jest. 
+
+## How to Run
+ ``
+    npm install
+ ``
+ 
+ ``
+    npm start
+ ``
+
+
 ## Interview Task
 
 Build a Patient Referral Form using this [design spec](https://www.figma.com/file/mviScHVBuziEsW5hC5JaPr/Patient-Referral-Form-interview-Copy?node-id=0%3A1).
