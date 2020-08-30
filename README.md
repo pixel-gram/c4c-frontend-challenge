@@ -2,6 +2,7 @@
 # Measurement Canada Front-End Assignment
 
 ![screenshot.gif](https://github.com/robynchung/c4c-frontend-challenge/blob/master/screenshot.gif?raw=true)
+Image is demonstrating adding new patient. 
 
 - All form design
 - Button function to add new referral patient
