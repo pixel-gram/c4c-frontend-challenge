@@ -8,7 +8,7 @@
 - Button function to submit referral list
 - Google map autocomplete and input designs
 - Add new referral triggered when you click button "+ ADD ANOTHER PATIENT"
-- 
+
 
 # To run this repository,
     git clone https://github.com/robynchung/c4c-frontend-challenge.git
