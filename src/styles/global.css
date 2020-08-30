@@ -1,0 +1,40 @@
+@import './components/Accordian.css';
+
+
+.pd0{
+    padding:0px;
+}
+
+.autocomplete-dropdown-container {
+    -webkit-box-shadow: 0px 3px 5px 0px #a5b9be;
+    box-shadow: 0px 3px 5px 0px #a5b9be;
+    width: 45%;
+    z-index: 1;
+}
+
+.autocomplete-selected{
+    font-size: 14px;
+    padding: 10px 16px;
+    background-color: #DFEDF0;
+
+}
+
+.autocomplete-normal {font-size: 14px;
+    padding: 10px 16px;
+    background-color: #fff;
+}
+
+.primary-heading{
+    color:#142b58;
+    font-weight: bolder;
+}
+
+.submit-referral-btn{
+    border-radius: 20px;
+    background-color: #0B2B5B;
+    color: #fff;
+    width: 100%;
+}
+
+
+
