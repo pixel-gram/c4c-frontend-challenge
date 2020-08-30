@@ -11,6 +11,14 @@
   * Write Tests using Jest. 
 
 ## How to Run
+
+ ### Adding Google API Key
+
+ 
+    public/index.html -> line 39 -> Replace "YOUR_API_KEY_HEER" with your API Key
+    
+ 
+
  ``
     npm install
  ``
