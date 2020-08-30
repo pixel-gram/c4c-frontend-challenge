@@ -1,0 +1,37 @@
+.form-summary-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-summary-title-container {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.form-summary-new-referral,
+.form-summary-new-referral-exist {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.form-summary-new-referral {
+  color: var(--blue-level2);
+}
+
+.form-summary-new-referral-exist {
+  color: var(--dark-blue-level2);
+}
+
+.form-summary-trash-can {
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+  position: absolute;
+  right: 40px;
+  top: 36%;
+  z-index: 999;
+}

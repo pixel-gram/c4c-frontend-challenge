@@ -1,0 +1,23 @@
+.form-address-input-field-container {
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(165, 186, 191, 0.63);
+  box-shadow: 0px 4px 6px 0px rgba(165, 186, 191, 0.63);
+  overflow-y: scroll;
+  position: absolute;
+  width: calc(100% - 24px);
+  z-index: 1;
+}
+
+.form-address-input-field-selected,
+.form-address-input-field-normal {
+  font-size: 14px;
+  padding: 10px 16px;
+  cursor: "pointer";
+}
+
+.form-address-input-field-selected {
+  background-color: "#DFEDF0";
+}
+
+.form-address-input-field-normal {
+  background-color: "#fff";
+}

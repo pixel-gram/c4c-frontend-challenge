@@ -1,0 +1,37 @@
+.number-container {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  font-size: 26px;
+  font-weight: 500;
+  height: 64px;
+  justify-content: center;
+  line-height: 16px;
+  width: 40px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.number1 {
+  background: var(--green);
+}
+
+.number2 {
+  background: var(--blue-level3);
+}
+
+.number3 {
+  background: var(--blue-level2);
+}
+
+.number4 {
+  background: var(--blue-level1);
+}
+
+.number5 {
+  background: var(--dark-blue-level1);
+}
+
+.number-container.expended {
+  border-bottom-left-radius: 0px;
+}

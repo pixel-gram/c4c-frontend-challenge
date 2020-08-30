@@ -1,0 +1,18 @@
+.page-name-container {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 56px 0 60px;
+  width: 100%;
+}
+
+.page-name-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.page-name-place {
+  font-size: 25px;
+}

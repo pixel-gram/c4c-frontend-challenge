@@ -1,0 +1,23 @@
+.button-send {
+  background: var(--dark-blue-level2);
+  border-radius: 34.5px;
+  border: none;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.button-add-patient {
+  background: none;
+  border: none;
+  color: #0b2b5b;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 10px 0 40px;
+}
+
+.button-container {
+  text-align: center;
+}
