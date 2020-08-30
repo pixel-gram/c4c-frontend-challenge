@@ -17,3 +17,8 @@
 Please add Google API on /public/index.html
 
     <script src="https://maps.googleapis.com/maps/api/js?key=GoogleAPIHERe&libraries=places"></script>
+
+Could not implement 
+
+- Validation
+- Delete one of list
