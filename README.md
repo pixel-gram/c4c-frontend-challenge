@@ -15,7 +15,7 @@
  ### Adding Google API Key
 
  
-    public/index.html -> line 39 -> Replace "YOUR_API_KEY_HEER" with your API Key
+    public/index.html -> line 39 -> Replace "YOUR_API_KEY_HERE" with your API Key
     
  
 
