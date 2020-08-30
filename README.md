@@ -11,6 +11,7 @@
 - Change success message so that its responsive
 
 ## How to run
+- npm i
 - (necessary to get location search working. If this is excluded, location search will switch to a regular input) create file called .env in root directory and add the following line to the top: REACT_APP_GOOGLE_API_KEY=<API-KEY>
 - npm start
 
