@@ -1,16 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TopNavigation from './features/navigation/Top';
+import MainRoutes from './features/navigation/routes/Main';
+
+import RootWrappers from './features/setup/RootWrappers';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <RootWrappers>
+        <TopNavigation />
+        <MainRoutes />
+      </RootWrappers>
     </div>
   );
 }

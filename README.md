@@ -1,5 +1,20 @@
 # Measurement Canada Front-End Developer Interview
 
+## Assumptions
+- User is someone with access to a keyboard
+- User is someone who speaks, reads, and writes in english
+
+## What else needs to be done
+- Clean up accessibility
+- A lot more tests
+- Clean up styling to better match
+- Change success message so that its responsive
+
+## How to run
+- (necessary to get location search working. If this is excluded, location search will switch to a regular input) create file called .env in root directory and add the following line to the top: REACT_APP_GOOGLE_API_KEY=<API-KEY>
+- npm start
+
+
 ## Interview Task
 
 Build a Patient Referral Form using this [design spec](https://www.figma.com/file/mviScHVBuziEsW5hC5JaPr/Patient-Referral-Form-interview-Copy?node-id=0%3A1).
