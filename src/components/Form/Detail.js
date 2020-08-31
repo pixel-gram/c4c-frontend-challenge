@@ -87,9 +87,11 @@ function Detail(props) {
           />
         </Grid>
 
-        <Grid className="form-detail-address-container" item xs={12}>
-          <AddressInputField value={referral?.address} />
-        </Grid>
+        {window.google && (
+          <Grid className="form-detail-address-container" item xs={12}>
+            <AddressInputField value={referral?.address} />
+          </Grid>
+        )}
 
         <Grid item xs={12}>
           <InputField
