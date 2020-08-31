@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --dark-blue-level1: #142b58;
+  --dark-blue-level2: #0b2b5b;
+  --blue-level1: #254b7a;
+  --blue-level2: #3a719b;
+  --blue-level3: #2595a5;
+  --green: #25a575;
+  --white: #ffffff;
+}
+
+@import "./components/Button.css";
+@import "./components/Header.css";
+@import "./components/Message.css";
+@import "./components/Number.css";
+@import "./components/PageName.css";
+
+@import "./components/Form/AddressInputField.css";
+@import "./components/Form/Detail.css";
+@import "./components/Form/InputField.css";
+@import "./components/Form/Summary.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cde7ed;
+  color: var(--dark-blue-level1);
+  font-family: "Montserrat", sans-serif;
+}
+
+button:focus {
+  cursor: pointer;
+  outline: none;
+}
+
+.body-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  width: 782px;
+}

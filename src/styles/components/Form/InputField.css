@@ -1,0 +1,9 @@
+.form-input-field-grid {
+  align-items: center;
+  border-bottom: solid 1px var(--blue-level2);
+  display: flex;
+}
+
+.form-input-field-required {
+  color: #f37020;
+}

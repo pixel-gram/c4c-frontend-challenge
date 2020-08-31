@@ -1,27 +1,28 @@
-# Measurement Canada Front-End Developer Interview
 
-## Interview Task
+# Measurement Canada Front-End Assignment
 
-Build a Patient Referral Form using this [design spec](https://www.figma.com/file/mviScHVBuziEsW5hC5JaPr/Patient-Referral-Form-interview-Copy?node-id=0%3A1).
+![screenshot.gif](https://github.com/robynchung/c4c-frontend-challenge/blob/master/screenshot.gif?raw=true)
+Image is demonstrating adding new patient. 
 
-There is no need to build any backend (api layer, server, database). For simulating form submission, you can do a POST to /api/referrals
+- All form design
+- Button function to add new referral patient
+- Button function to submit referral list
+- Google map autocomplete and input designs
+- Add new referral triggered when you click button "+ ADD ANOTHER PATIENT"
 
 
-## Duration
+# To run this repository,
+    git clone https://github.com/robynchung/c4c-frontend-challenge.git
+    npm i 
+    
 
-Please set aside up to 8 hours to work on this challenge. We are interested in seeing how far you can get with 8 hours and therefore, completion is not the highest priority. 
 
-Please have your submission in by <b>Sunday August 30th at midnight EST</b>.
+Please add Google API on /public/index.html
 
-## Submission
-1.  Fork this repo
-2.  Build Patient Referral Form. Suggested libraries
-    -  Material UI components - [https://material-ui.com/](https://material-ui.com/)
-    -  Address lookup - [https://www.npmjs.com/package/react-places-autocomplete](https://www.npmjs.com/package/react-places-autocomplete)
-4.  Submit a Pull Request (PR)
-5.  In the PR, include a README that includes the following:
-    - If you made any assumptions, what are they
-    - Outline what else needs to be done if given more time
-    - Instructions on how to run it
-6. Send an email to noor.syed@canada.ca and jasper.chan@canada.ca to let us know your submission has been completed.
+    <script src="https://maps.googleapis.com/maps/api/js?key=GoogleAPIHERe&libraries=places"></script>
 
+Could not implement 
+
+- Validation
+- Check PropTypes
+- Delete one of list
