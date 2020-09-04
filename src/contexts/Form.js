@@ -13,6 +13,7 @@ class FormProvider extends Component {
     language: "",
     lastName: "",
     note: "",
+    numReferral: 1,
     phone: "",
     referral: []
   };
@@ -32,13 +33,14 @@ class FormProvider extends Component {
   onClickAddReferal = event => {
     event.preventDefault();
 
-    const { address, birthDate, eMail, firstName, language, lastName, note, phone, referral } = this.state;
+    const { address, birthDate, eMail, firstName, language, lastName, note, phone, numReferral } = this.state;
 
-    if (referral.length > 4) {
+    if (numReferral > 4) {
       alert("cannot add referral over 5");
     } else {
-      if (address && birthDate && eMail && firstName && language && lastName && phone) {
+      if (birthDate && eMail && firstName && language && lastName && phone) {
         this.setState({
+          numReferral: numReferral + 1,
           referral: [...this.state.referral, { firstName, lastName, birthDate, language, phone, eMail, address, note }]
         });
 

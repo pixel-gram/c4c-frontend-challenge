@@ -10,19 +10,11 @@ function App() {
   const context = useContext(FormContext.Context);
 
   const renderReferralList = () => {
-    if (context.referral) {
-      return context.referral.length > 0 ? (
-        <>
-          {context.referral.map((referral, index) => {
-            return <Container key={index} referral={referral} index={index + 1} />;
-          })}
+    const referralIteration = Array(context.numReferral).fill();
 
-          {context.referral.length < 5 ? <Container index={context.referral.length + 1} /> : null}
-        </>
-      ) : (
-        <Container index={context.referral.length + 1} />
-      );
-    }
+    return referralIteration.map((_, index) => {
+      return <Container key={index} referral={context.referral[index]} index={index + 1} />;
+    });
   };
 
   return (
